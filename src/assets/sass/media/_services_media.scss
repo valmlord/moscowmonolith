@@ -1,0 +1,50 @@
+@media (max-width: 1024px) {
+  .services {
+    &__item {
+      span {
+        font-size: 11px;
+        padding: 0 10px 0 10px;
+      }
+
+      .btn_mini {
+        width: 170px;
+        margin-top: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 922px) {
+  .services {
+    &__item {
+      img {
+        display: none;
+      }
+
+      &__description {
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .services {
+    padding: 0 20px 65px 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .services {
+    &__item {
+      &__description {
+        span {
+          font-size: 12px;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

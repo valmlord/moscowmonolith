@@ -1,0 +1,19 @@
+.projects {
+  padding: 60px 0;
+
+  &__description {
+    margin-top: 45px;
+    font-size: 22px;
+
+  }
+
+  .fotorama {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  ul {
+    font-size: 20px;
+  }
+}

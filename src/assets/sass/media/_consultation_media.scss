@@ -1,0 +1,31 @@
+@media (max-width: 922px) {
+  .consultation {
+    min-height: 350px;
+    .title {
+      padding-top: 40px;
+    }
+    &__descr {
+      font-size: 14px;
+    }
+  }
+  .feed-form {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .consultation {
+    min-height: 350px;
+    .title {
+      padding-top: 30px;
+      font-size: 15px;
+    }
+    &__descr {
+      margin-top: 15px;
+      font-size: 10px;
+    }
+  }
+  .feed-form {
+    margin-top: 50px;
+  }
+}

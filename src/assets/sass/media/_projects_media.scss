@@ -1,0 +1,19 @@
+@media (max-width: 922px) {
+  .projects {
+    &__description {
+      margin-left: 15px;
+      font-size: 15px;
+    }
+    ul {
+      font-size: 11px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .projects {
+    &__description {
+      font-size: 12px;
+    }
+  }
+}
