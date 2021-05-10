@@ -1,56 +1,83 @@
 @font-face {
-  font-family: "Oswald";
-  src:
-    url("../fonts/Oswald-Regular.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Light.eot");
+    src: url("../fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Roboto-Light.woff2") format("woff2"),
+        url("../fonts/Roboto-Light.woff") format("woff"),
+        url("../fonts/Roboto-Light.ttf") format("truetype"),
+        url("../fonts/Roboto-Light.svg#Roboto-Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src:
-    url("../fonts/Montserrat.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.eot");
+    src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Roboto-Regular.woff2") format("woff2"),
+        url("../fonts/Roboto-Regular.woff") format("woff"),
+        url("../fonts/Roboto-Regular.ttf") format("truetype"),
+        url("../fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'icomoon';
-  src: url('../fonts/icomoon.eot?sl985');
-  src: url('../fonts/icomoon.eot?sl985#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?sl985') format('truetype'),
-    url('../fonts/icomoon.woff?sl985') format('woff'),
-    url('../fonts/icomoon.svg?sl985#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-  color: black;
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.eot");
+    src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Roboto-Bold.woff2") format("woff2"),
+        url("../fonts/Roboto-Bold.woff") format("woff"),
+        url("../fonts/Roboto-Bold.ttf") format("truetype"),
+        url("../fonts/Roboto-Bold.svg#Roboto-Bold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?jqq1h1');
+    src: url('../fonts/icomoon.eot?jqq1h1#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?jqq1h1') format('truetype'),
+        url('../fonts/icomoon.woff?jqq1h1') format('woff'),
+        url('../fonts/icomoon.svg?jqq1h1#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?750wgp');
+    src: url('../fonts/icomoon.eot?750wgp#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?750wgp') format('truetype'),
+        url('../fonts/icomoon.woff?750wgp') format('woff'),
+        url('../fonts/icomoon.svg?750wgp#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
 [class^="icon-"],
 [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-facebook:before {
-  content: "\ea90";
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-whatsapp:before {
-  content: "\ea93";
+    content: "\ea93";
 }
 
 .icon-telegram:before {
-  content: "\ea95";
+    content: "\ea95";
 }

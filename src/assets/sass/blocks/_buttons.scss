@@ -1,34 +1,45 @@
 .btn {
-    width: 230px;
-    height: 50px;
-    margin-top: 93px;
-    border-radius: 30px;
-    background-color: $main-color;
+    background-image: -webkit-gradient(linear,
+            left bottom,
+            left top,
+            from(#93784c),
+            to(#c1b24a));
+    background-image: linear-gradient(to top, #93784c 0%, #c1b24a 100%);
     border: none;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
+    border-radius: 4px;
 
     &:active,
     &:focus {
         outline: none;
     }
 
-    &:hover {
-        box-shadow: 3px 3px 20px $main-color;
-        border: none;
-        transition: 0.4s all;
+    &-subheader {
+        margin-top: 10px;
+        width: 172px;
+        height: 46px;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+
+        &:hover {
+            background-image: none;
+            background-color: #d8ce8c;
+        }
     }
 
-
-
-    &-mini {
-        width: 200px;
-        margin-top: 60px;
+    &-promo {
+        display: block;
+        margin: 120px auto;
+        width: 300px;
+        height: 50px;
     }
 
     &-submit {
         width: 300px;
-        margin-top: 15px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
     }
 }

@@ -1,69 +1,30 @@
-@import 'libs/bootstrap-reboot';
 @import 'libs/fonts';
+@import 'libs/bootstrap-grid';
+@import 'libs/bootstrap-reboot';
 @import 'libs/fotorama';
-@import 'libs/animate';
-
-@import 'base/variables';
-
-@import 'blocks/header';
 @import 'blocks/buttons';
-@import 'blocks/about';
-@import 'blocks/services';
+@import 'blocks/title';
+@import 'blocks/modals';
 @import 'blocks/projects';
-@import 'blocks/consultation';
-@import 'blocks/modal';
-@import 'blocks/forms';
-@import 'blocks/footer';
-@import 'blocks/pageup';
 @import 'blocks/advantages';
-
-@import 'media/header_media';
-@import 'media/projects_media';
-@import 'media/about_media';
-@import 'media/services_media';
+@import 'blocks/header';
+@import 'blocks/forms';
+@import 'blocks/location';
+@import 'blocks/require';
+@import 'blocks/promo';
+@import 'blocks/footer';
 @import 'media/advantages_media';
-@import 'media/consultation_media';
+@import 'media/projects_media';
+@import 'media/header_media';
+@import 'media/promo_media';
+@import 'media/location_media';
 @import 'media/footer_media';
-@import 'media/modal_media';
+@import 'media/title_media';
+@import 'media/footer_media';
 @import 'media/forms_media';
+@import "media/buttons_media";
+@import "media/modals_media";
 
 * {
-	font-family: 'Oswald', sans-serif;
-}
-
-.title {
-	text-align: center;
-	font-size: 40px;
-	text-transform: uppercase;
-	font-weight: 100;
-}
-
-.container {
-	position: relative;
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
-@media (max-width: 1200px) {
-	.container {
-		max-width: 930px;
-	}
-}
-
-@media (max-width: 992px) {
-	.container {
-		max-width: 700px;
-	}
-}
-
-@media (max-width: 767px) {
-	.container {
-		max-width: none;
-	}
-}
-
-@media (max-width: 1024px) {
-	.title {
-		font-size: 30px;
-	}
+    font-family: "Roboto", sans-serif;
 }

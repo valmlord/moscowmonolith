@@ -1,59 +1,87 @@
-@media (max-width: 922px) {
+@media (max-width: 1200px) {
     .advantages {
-        .title {
-            font-size: 20px;
+        &__block {
+            -webkit-box-align: start;
+            -ms-flex-align: start;
+            align-items: flex-start;
         }
 
-        &__item {
-            &__description {
-                font-size: 14px;
-                margin-top: 15px;
-            }
+        &__descr {
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .advantages {
+        &__block {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
         }
 
-        &__items {
-            display: flex;
-            flex-direction: row;
-
-            img {
-                width: 50px;
-                height: 50px;
-            }
+        &__round {
+            margin-right: 0;
         }
 
+        &__descr {
+            width: 300px;
+            margin-top: 20px;
+        }
 
+        &__subtitle {
+            text-align: center;
+        }
+
+        &__text {
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .advantages {
+        padding: 40px 0;
+
+        &__descr {
+            width: 350px;
+        }
     }
 }
 
 @media (max-width: 575px) {
     .advantages {
-        .title {
-            font-size: 20px;
+        padding: 22px 0 36px 0;
+
+        &__block {
+            margin-top: 26px;
         }
 
-        &__items {
-            display: flex;
-            flex-direction: column;
+        &__round {
+            width: 100px;
+            height: 100px;
 
             img {
-                width: 45px;
-                height: 45px;
+                max-width: 60%;
             }
         }
 
-        &__item {
-            &:nth-child(2) {
-                margin-top: 50px;
-            }
+        &__descr {
+            width: 100%;
+            margin-top: 27px;
+        }
 
-            &:nth-child(3) {
-                margin-top: 50px;
-            }
+        &__subtitle {
+            font-size: 16px;
+        }
 
-            &__description {
-                font-size: 15px;
-                margin-top: 15px;
-            }
+        &__text {
+            margin-top: 0;
         }
     }
 }

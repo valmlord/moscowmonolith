@@ -1,5 +1,19 @@
-@media (max-width: 575px) {
-    .footer__link {
-        font-size: 18px;
+@media (max-width: 767px) {
+    .footer {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        &__links {
+            margin-top: 30px;
+        }
+
+        &__call {
+            margin-top: 30px;
+        }
     }
 }

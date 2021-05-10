@@ -1,0 +1,68 @@
+@media (max-width: 1200px) {
+    .promo {
+        &__header {
+            font-size: 50px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        &__header {
+            font-size: 40px;
+        }
+
+        &__subheader {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        &__header {
+            line-height: 45px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        min-height: 400px;
+        padding: 93px 0 35px 0;
+
+        &__descr {
+            display: none;
+        }
+
+        &__header {
+            font-size: 30px;
+            padding: 0 24px;
+            line-height: 35px;
+        }
+
+        &__subheader {
+            font-size: 20px;
+            margin-top: 33px;
+            padding: 0 10px;
+            line-height: 30px;
+        }
+
+        &__btn {
+            width: 210px;
+            height: 50px;
+            margin-top: 72px;
+            font-size: 16px;
+        }
+
+        &__btn:hover {
+            background-image: -webkit-gradient(linear,
+                    left bottom,
+                    left top,
+                    from(#1eacc7),
+                    to(#4ce2ff));
+            background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+        }
+    }
+
+}

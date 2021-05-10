@@ -1,0 +1,92 @@
+.location {
+    padding: 50px 0;
+    background: url("../img/bg/advantages.png") center center/cover no-repeat;
+
+    .row {
+        margin-top: 32px;
+    }
+
+    &__item {
+        position: relative;
+        width: 320px;
+        height: 280px;
+        margin: 0 auto;
+        margin-bottom: 19px;
+        padding-top: 92px;
+    }
+
+    &__item-1 {
+        background: url("../img/bg/slide_2.jpg") center center/cover no-repeat;
+    }
+
+    &__item-2 {
+        background: url("../img/bg/slide_3.jpg") center center/cover no-repeat;
+    }
+
+    &__item-3 {
+        background: url("../img/bg/slide_1.jpg") center center/cover no-repeat;
+    }
+
+
+
+    &__item-subtitle {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 31px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__item-plus {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: absolute;
+        bottom: 35px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 26px;
+        height: 26px;
+        background-color: #000000;
+        margin: 0 auto;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+    &__item-plus:before {
+        content: "";
+        display: block;
+        width: 14px;
+        height: 2px;
+        background-color: #1eacc7;
+        -webkit-transition: 0.3s all;
+        transition: 0.3s all;
+    }
+
+    &__item-plus:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        display: block;
+        height: 14px;
+        width: 2px;
+        background-color: #1eacc7;
+        -webkit-transition: 0.3s all;
+        transition: 0.3s all;
+    }
+
+    &__item-plus:hover:before,
+    &__item-plus:hover:after {
+        background-color: #ff5656;
+    }
+}

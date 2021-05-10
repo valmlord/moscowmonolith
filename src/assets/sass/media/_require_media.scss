@@ -1,0 +1,43 @@
+@media (max-width: 1200px) {
+    .require {
+        br {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .require {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .require {
+        padding: 25px;
+
+        &__block {
+            margin: 30px 0 0 0;
+        }
+
+        &__title {
+            font-size: 16px;
+        }
+
+        &__list {
+            padding-left: 30px;
+            margin-top: 5px;
+
+            li {
+                font-size: 14px;
+                margin-bottom: 5px;
+                line-height: 20px;
+            }
+        }
+
+        &__list &__descr {
+            font-size: 14px;
+            margin-top: 15px;
+        }
+    }
+}

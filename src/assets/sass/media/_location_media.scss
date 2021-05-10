@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+    .location {
+        &__item {
+            width: 290px;
+
+            &-subtitle {
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .location {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .location {
+        padding: 20px 0 40px 0;
+
+        .row {
+            margin-top: 30px;
+        }
+
+        &__item {
+            height: 254px;
+            padding: 81px 40px 0 40px;
+        }
+
+        &__item-subtitle {
+            font-size: 18px;
+            line-height: 31px;
+        }
+
+        &__item-plus {
+            bottom: 28px;
+        }
+
+        &__item-plus:hover:before,
+        &__item-plus:hover:after {
+            background-color: #1eacc7;
+        }
+    }
+}

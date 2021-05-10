@@ -1,14 +1,16 @@
 @media (max-width: 575px) {
-  #consult {
-    input {
-      height: 50px;
-      width: 200px;
+    #consult {
+        input {
+            height: 50px;
+            width: 200px;
+
+        }
     }
-  }
 }
 
 @media (max-width: 375px) {
-  .feed-form {
-    margin: 20px auto;
-  }
+    .feed-form {
+        display: block;
+        margin: 15px auto;
+    }
 }
